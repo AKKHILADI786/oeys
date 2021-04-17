@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +13,171 @@
     <script defer src="js/jquery-3.6.0.js"></script>
 
     <!-- own library -->
-
-    
-
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
+
 <body>
+    <header>
+
+        <div class="row my-2 d-flex justify-content-around top">
+            <div class="col-3 text-center">
+                <h2 class="">Shopify.Com</h2>
+            </div>
+            
+            
+            <div class="col-4 my-1 bar">
+                <div class="container wrap ">
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                        <button type="submit" class="searchButton">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-search ic" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-3 d-flex justify-content-end">
+                <button class="btn btn-outline-primary " id="Register">Register</button>
+                <button class="btn btn-primary  ms-3" id="Login">LogIn</button>
+            </div>
+        </div>
+        <div class="down">
+            <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active menu_text" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link menu_text" href="#">Best Deals</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link menu_text" href="#">Today Deals</a>
+                      </li>
     
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu_text" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Electronics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item menu_text" href="#">Action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Another action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu_text" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Mobile
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item menu_text" href="#">Action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Another action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu_text" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Appliances
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item menu_text" href="#">Action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Another action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu_text" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Fashion
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item menu_text" href="#">Action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Another action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Something else here</a></li>
+                        </ul>
+                      </li><li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu_text" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Clothes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item menu_text" href="#">Action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Another action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu_text" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sports
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item menu_text" href="#">Action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Another action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu_text" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Books
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item menu_text" href="#">Action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Another action</a></li>
+                          <li><a class="dropdown-item menu_text" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link menu_text" href="#">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link menu_text" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+    </header>
+    <div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/5.jpg" class="d-block w-100" alt="...">
+              </div>
+        
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="content">
+
+    </div>
 </body>
+
 </html>

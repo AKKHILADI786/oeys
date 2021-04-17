@@ -1,0 +1,118 @@
+@import url('../fonts/font.css');
+/* font-family: 'Libre Baskerville', serif; */
+@import url('../fonts/font2.css');
+/* font-family: 'Ubuntu Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hind+Madurai&display=swap');
+
+
+/* search bar style */
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    
+    padding-left: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    border: 2px solid black;
+    border-right: none;
+    height: 35px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    color: black;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+  }
+  .searchTerm:focus{
+    color: #216ce4;
+  }
+  
+  .searchButton {
+    width: 60px;
+    height: 35px;
+    border: 1px solid #216ce4;
+    background: #216ce4;
+    /* text-align: center; */
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 25px;
+    
+
+  }
+  .ic{
+      position: relative;
+      bottom: 5px;
+  }
+
+  /* heding */
+  .top{
+      background-color: rgb(255, 255, 255);
+  }
+  h2{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 1000;
+    font-size: 30px !important;
+    color:#216ce4;
+      
+  }
+  /* register and login */
+#Register{
+    width: 120px !important;
+    height: 40px !important;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Ubuntu Mono', monospace;
+    border-radius: 100px;
+}
+#Login{
+    width: 120px !important;
+    height: 40px !important;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Ubuntu Mono', monospace;
+    border-radius: 100px;
+
+}
+/* second heading */
+.down{
+    box-shadow: 0px 1px 5px grey;
+}
+
+.menu_text{
+    color: #EEFBFB !important;
+    text-transform: uppercase;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 15px !important;
+    font-weight: 800 !important;
+}
+.nav-item > .menu_text{
+    margin-left: 15px !important;
+
+}
+
+/* content */
+
+
+
+/* media breakpoint */
+
+/* @include media-breakpoint-up(md) {
+
+    
+} */
+@media (max-width: 992px) { 
+    .bar{
+        display: none;
+    }
+    #Register{
+        display: none;
+
+    }
+}
+@media (max-width: 768px) { 
+    
+ }
