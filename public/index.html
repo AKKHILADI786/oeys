@@ -7,15 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <!-- Third party library -->
+  <script defer src="js/jquery-3.6.0.js"></script>
   <link rel="stylesheet" href="css/bootstrap.css">
   <script defer src="js/popper.js"></script>
   <script defer src="js/bootstrap.js"></script>
-  <script defer src="js/jquery-3.6.0.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
   <!-- own library -->
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/login.css">
+
+  <script defer src="js/script.js"></script>
 </head>
 
 <body>
@@ -161,7 +163,7 @@
   </header>
 
 
-  <div class="content">
+  <div class="content" id="content">
     <div>
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -726,8 +728,7 @@
 
     </div>
   </div>
-  <hr>
-  <div class="footer_box">
+  <div class="footer_box" id="footer_box">
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">

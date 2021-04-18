@@ -209,6 +209,7 @@ body{
 
 .footer_box{
     box-shadow: -2px -2px 5px grey;
+    margin-top: 10px;
 }
 /* media breakpoint */
 
