@@ -174,6 +174,36 @@ body{
 ::-webkit-scrollbar-thumb:hover{
     background-color: #216ce4;
 }
+/* second card */
+.wrapper{
+    max-height: 250px;
+    border: 1px solid #bebebe;
+    background-color: #f8f8f8;
+    display: flex;
+    overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar{
+    height: 7px;
+
+}
+
+.wrapper .item{
+    width: 180px;
+    min-width: 180px;
+    border-radius: 5px;
+    height: 220px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(122, 146, 255);
+    margin: 10px;
+    margin-right: 0px;
+    box-shadow: 1px 1px 2px grey;
+}
+.item .card_img{
+    width: 100%;
+}
+/* second card */
 
 /* footer */
 
