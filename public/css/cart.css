@@ -1,0 +1,105 @@
+
+
+.cart_image{
+    width: 100%;
+    max-width: 250px !important;
+    border-radius: 10px  !important;
+}
+#Quantity{
+    width: 100px !important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.containe{
+height: 100%;
+align-content: center;
+}
+
+.car{
+position: relative;
+top: 50px;
+height: 100%;
+margin-top: auto;
+margin-bottom: 200px;
+width: 1000px;
+background-color: #216ce4 !important;
+box-shadow: 5px 5px 20px grey;
+}
+
+.card-header h3{
+color: white;
+font-size: 40px;
+}
+
+.remove{
+color: black;
+background-color: #FFC312;
+width: 80px;
+border-radius: 100px;
+margin-top: 10px;
+margin-bottom: 5px;
+height: 30px;
+text-align: center;
+
+}
+#remove_text{
+    position: relative;
+    bottom: 4px;
+}
+
+.remove:hover{
+color: black;
+background-color: white;
+}
+
+.heading div{
+    border-radius: 5px;
+    background-color: #1762db;
+
+}
+.heading .main_heading .text-center{
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    color: #ffffff;
+    background-color: #1358c7;
+}
+.items .text-center{
+    font-size: 16px;
+    color: #ffffff;
+}
+.cart_text{
+    color: #ffffff;
+    font-size: 25px;
+    
+}
+.cartt{
+    height: 100% !important;
+    background-color: #1358c7;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+.card-footer{
+    height: 100% !important;
+    
+}
+.card_data{
+    color: #ffffff;
+    font-size: 20px;
+    /* margin: 20px !important; */
+}
+.cart_btn{
+    border-radius: 100px;
+    height: 35px;
+    width: 180px;
+
+}
