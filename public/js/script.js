@@ -7,7 +7,7 @@ $(()=>{
 
 
 
-        $('#content').load('html/cart.html')
+        $('#content').load('html/add_product.html')
     })
 
 
