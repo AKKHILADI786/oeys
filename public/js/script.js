@@ -21,6 +21,25 @@ $(()=>{
 
         $('#content').load('html/login.html')
     })
+    $('#dealer_login').click(()=>{
+        console.log('btn clicked')
+        $('#content').empty()
+        $('#footer_box').empty()
+
+
+
+        $('#content').load('html/dealer_login.html')
+    })
+    $('#dealer_register').click(()=>{
+        console.log('btn clicked')
+        $('#content').empty()
+        $('#footer_box').empty()
+
+
+
+        $('#content').load('html/dealer_register.html')
+    })
+
 
 
 
