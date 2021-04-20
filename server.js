@@ -5,6 +5,10 @@ const { db } =require('./database/models')
 const app=express()
 const PORT=process.env.PORT||4444;
 
+
+// for multer 
+
+
 app.use(expressSession({
     resave:true,
     saveUninitialized:true,
@@ -17,6 +21,7 @@ app.use(express.urlencoded({extended:true}))
 app.use('/',express.static(__dirname+'/public'))
 app.use('/user',require('./routes/users/user').uroute)
 app.use('/dealer',require('./routes/dealers/dealer').droute)
+app.use('/product',require('./routes/product/product').proute)
 
 db.sync()
     .then(()=>{

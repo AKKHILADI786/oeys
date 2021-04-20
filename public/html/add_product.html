@@ -12,52 +12,53 @@
                 
             </div>
             <div class="card-body">
-                <form class="row g-3">
+                <form class="row g-3" action="/product" method="POST" enctype="multipart/form-data">
                     <div class="row g-3">
                         <div class="col">
                         <label for="Product name" class="form-label">Product Name</label>
-                          <input type="text" class="form-control" placeholder="Product name" aria-label="Product name">
+                          <input type="text" class="form-control" name="name" placeholder="Product name" aria-label="Product name">
                         </div>
                        
                       </div>
 
                     <div class="col-md-6">
                         <label for="inputState" class="form-label">Type</label>
-                        <select id="inputState" class="form-select">
-                          <option selected>Punjab</option>
-                          <option>...</option>
+                        <select id="inputState" name="type" class="form-select">
+                    
+                          <option value="">select</option>
+                    
+                        
                         </select>
                     </div>
                     <div class="col-md-6">
                         <label for="inputState" class="form-label">Sub-Type</label>
-                        <select id="inputState" class="form-select">
-                          <option selected>Punjab</option>
-                          <option>...</option>
+                        <select id="subtype" name=subtype class="form-select">
+                          <option value="">Please select the sub-type</option>
                         </select>
                     </div>
                     <div class="col-md-6">
                         <label for="Price" class="form-label">Price</label>
-                        <input type="number" class="form-control" placeholder="Price" aria-label="Price">
+                        <input type="number" name="price" class="form-control" id="price" placeholder="Price" aria-label="Price">
                         
                     </div>
                     <div class="col-md-6">
                         <label for="Quantity" class="form-label">Quantity</label>
-                        <input type="number" class="form-control" placeholder="Quantity" aria-label="Quantity">
+                        <input type="number" name="quantity" class="form-control" id="quantity" placeholder="Quantity" aria-label="Quantity">
                         
                     </div>
                     <div class="col-12">
                       <label for="Description" class="form-label">Description</label><br>
-                      <textarea name="Description" id="" cols="30" rows="10" class="form-control" placeholder="Description" aria-label="Description"></textarea>
+                      <textarea name="Description" id="description" cols="30" rows="10" class="form-control" placeholder="Description" aria-label="Description"></textarea>
                     </div>
                     
                     <div class="col-12">
                       <label for="inputCity" class="form-label">Photo</label>
-                      <input type="file" class="form-control" id="inputCity">
+                      <input type="file" name="product" class="form-control" id="image">
                     </div>
                    
                     
                     <div class="col-12">
-                      <button type="submit" id="signin" class="btn btn-warning m-3 float-end">Add</button>
+                      <button type="submit" id="add" class="btn btn-warning m-3 float-end">Add</button>
                     </div>
                   </form>
             </div>
@@ -72,5 +73,5 @@
 </div>
 
 
-
+<script src="../app/add_product.js"></script>
 

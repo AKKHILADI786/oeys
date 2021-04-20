@@ -94,8 +94,39 @@ const dealers=db.define('dealer',{
     }
 })
 
+const products=db.define('product',{
+    id:ID,
+    name:{
+        type:data.STRING(50),
+        allowNull:false,
+    },
+    type:{
+        type:data.STRING(20),
+        allowNull:false,
+        unique: true
+    },
+    subtype:{
+        type:data.STRING(40),
+        allowNull:false
+    },
+    price:{
+        type:data.INTEGER,
+        allowNull:false
+    },
+    quantity:{
+        type:data.INTEGER
+    },
+    description:{
+        type:data.STRING(500)
+    },
+    image:{
+        type:data.STRING(40)
+    }
+})
+
+
 
 
 module.exports={
-    db,users,dealers
+    db,users,dealers,products
 }
