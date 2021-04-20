@@ -88,6 +88,20 @@
 
 }
 
+/* dropmenu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+li .dropdown-menu{
+    width: 300px !important;
+    max-height: 500px !important;
+    overflow-y: auto;
+    background-color: #216ce4;
+}
+.dropdown-menu a:hover{
+    background-color: #083988;
+}
+
 /* second heading */
 /* .second_nav{
    
@@ -249,5 +263,18 @@ body{
     }
 }
 @media (max-width: 768px) { 
+    li .dropdown-menu{
+        width: 100% !important;
+    }
+    .nav-item{
+        align-items: center;
+        width: 100% !important;
+        margin-top: 5px !important;
+        border-radius: 5px;
+    }
+    .nav-item:hover{
+        background-color: #67a0fa;
+    }
+    
     
  }

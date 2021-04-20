@@ -5,7 +5,7 @@ $(()=>{
 
 
 
-        $('#content').load('html/dealer_profile.html')
+        $('#content').load('html/add_product.html')
     })
     $.get('/user/islogin',(data)=>{
         console.log('islogin clicked')
