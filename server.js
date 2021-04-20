@@ -1,8 +1,15 @@
 const express=require('express')
+
+const expressSession=require('express-session')
 const { db } =require('./database/models')
 const app=express()
 const PORT=process.env.PORT||4444;
 
+app.use(expressSession({
+    resave:true,
+    saveUninitialized:true,
+    secret:'asfdasdfasdfsdfasdwqer'
+}))
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))

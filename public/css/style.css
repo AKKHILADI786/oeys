@@ -70,6 +70,14 @@
     font-family: 'Ubuntu Mono', monospace;
     border-radius: 100px;
 }
+#logout{
+    width: 100px !important;
+    height: 40px !important;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Ubuntu Mono', monospace;
+    border-radius: 100px;
+}
 #cart{
     width: 100px !important;
     height: 40px !important;

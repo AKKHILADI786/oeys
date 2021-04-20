@@ -1,5 +1,10 @@
 $(() => {
 
+    $('#loginn').click(()=>{
+        console.log('login clicked')
+        $('#content').load('html/login.html')
+    })
+
     $('#signin').click(() => {
         let password = $('#password').val();
         let p1 = $('#password1').val();
@@ -12,8 +17,8 @@ $(() => {
             let username = $('#username').val();
             let phone = $('#phone').val();
             let address = $('#Address').val() + ' ' + $('#Address2').val();
-            let city = $('#city').val();
-            let State = $('#State').val();
+            let city = $('#City').val();
+            let state = $('#State').val();
             let pincode = $('#Zip').val();
             $.get(`/user/${username}`,(data)=>{
                 if(!(Object.keys(data).length === 0)){
@@ -21,7 +26,7 @@ $(() => {
                 }
                 else{
                     $.post('/user',{
-                        name,email,password,phone,address,pincode,city,State,username
+                        name,email,password,phone,address,pincode,city,state,username
                     },(data)=>{
                         console.log(data)
                         window.alert(`The account for ${data.username} is created`)
@@ -34,4 +39,6 @@ $(() => {
 
         console.log('signin clicked')
     })
+
+    
 })
