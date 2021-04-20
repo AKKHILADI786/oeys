@@ -1,5 +1,12 @@
 $(()=>{
+    $('#profile').click(()=>{
+        $('#content').empty()
+        $('#footer_box').empty()
 
+
+
+        $('#content').load('html/dealer_profile.html')
+    })
     $.get('/user/islogin',(data)=>{
         console.log('islogin clicked')
         if(data){
