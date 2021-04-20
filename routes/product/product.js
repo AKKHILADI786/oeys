@@ -39,7 +39,7 @@ route.post('/',upload.single('product'),async(req,res)=>{
        description:req.body.description,
        image: '/images/'+req.body.name+'.'+req.file.mimetype.split('/').pop()
     })
-    res.status(200).send(data)
+    res.redirect('/')
 })
 
 

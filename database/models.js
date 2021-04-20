@@ -103,7 +103,6 @@ const products=db.define('product',{
     type:{
         type:data.STRING(20),
         allowNull:false,
-        unique: true
     },
     subtype:{
         type:data.STRING(40),

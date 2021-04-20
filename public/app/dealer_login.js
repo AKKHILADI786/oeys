@@ -22,7 +22,7 @@ $(()=>{
                 window.alert('login Successfully')
                 
                 $('#user_login').empty()
-                $('#content').load('html/cart.html')
+                $('#content').load('html/dealer_profile.html')
                 $('#user_login').append(`
                 </div><button class="btn btn-outline-primary " id="logout">Logout</button>
                 `)
