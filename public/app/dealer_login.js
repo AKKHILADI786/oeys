@@ -11,7 +11,7 @@ $(()=>{
     $('#logg').click(()=>{
         let username=$('#username').val();
         let password=$('#password').val();
-        $.post('/user/login',{
+        $.post('/dealer/login',{
             username,password
         },(data)=>{
            

@@ -16,6 +16,7 @@ app.use(express.urlencoded({extended:true}))
 
 app.use('/',express.static(__dirname+'/public'))
 app.use('/user',require('./routes/users/user').uroute)
+app.use('/dealer',require('./routes/dealers/dealer').droute)
 
 db.sync()
     .then(()=>{
