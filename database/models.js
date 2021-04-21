@@ -1,4 +1,6 @@
 const Sequelize=require('sequelize')
+const product = require('../routes/product/product')
+const user = require('../routes/users/user')
 const data=Sequelize.DataTypes
 
 
@@ -123,9 +125,58 @@ const products=db.define('product',{
     }
 })
 
+const orders=db.define('order',{
+    id:ID,
+    quantity:{
+        type:data.INTEGER(5),
+        defaultValue:1
+    }
+})
+
+const carts=db.define('cart',{
+    id:ID
+})
+
+
+users.hasOne(carts)
+carts.belongsTo(users)
+
+products.hasMany(carts)
+carts.belongsTo(products)
+
+dealers.hasMany(carts)
+carts.belongsTo(dealers)
+
+products.hasMany(orders)
+orders.belongsTo(products)
+
+dealers.hasMany(orders)
+orders.belongsTo(dealers)
+
+users.hasMany(orders)
+orders.belongsTo(users)
+
+
+
+// orders.belongsTo(users)
+// users.hasMany(orders)
+
+// dealers.hasMany(products)
+// products.belongsTo(dealers)
+// orders.belongsTo(dealers)
+// dealers.hasMany(orders)
+
+
+// // products.hasMany(users)
+// products.hasOne(dealers)
+
+// orders.hasMany(products)
+// products.hasMany(orders)
+
+
 
 
 
 module.exports={
-    db,users,dealers,products
+    db,users,dealers,products,orders,carts
 }

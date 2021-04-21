@@ -23,7 +23,7 @@ app.use('/user',require('./routes/users/user').uroute)
 app.use('/dealer',require('./routes/dealers/dealer').droute)
 app.use('/product',require('./routes/product/product').proute)
 
-db.sync()
+db.sync({force:true})
     .then(()=>{
         app.listen(PORT,()=>{
             console.log(`server started at http://localhost:${PORT}`)

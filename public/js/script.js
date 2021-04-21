@@ -2,11 +2,9 @@ $(()=>{
     $('#profile').click(()=>{
         $('#content').empty()
         $('#footer_box').empty()
-
-
-
         $('#content').load('html/add_product.html')
     })
+
     $.get('/user/islogin',(data)=>{
         console.log('islogin clicked')
         if(data){
@@ -17,7 +15,20 @@ $(()=>{
             activelogout();
         }
     })
+    $('#cart').click(()=>{
+        console.log('cart clicked')
+        $('#footer_box').empty()
 
+        $.get('/user/islogin',(data)=>{
+            if(!data){
+                window.alert('Please login first')
+                $('#content').load('html/login.html')
+            }
+            else{
+                $('#content').load('html/cart.html')
+            }
+        })
+    })
     $('#login').click(()=>{
         console.log('btn clicked')
 
@@ -29,6 +40,7 @@ $(()=>{
         $('#content').load('html/login.html')
     })
     $('#dealer_login').click(()=>{
+        
         console.log('btn clicked')
         $('#content').empty()
         $('#footer_box').empty()
@@ -51,6 +63,7 @@ $(()=>{
 
 
 })
+
 console.log('js connected')
 
 async function activelogout(){
