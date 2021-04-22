@@ -2,7 +2,7 @@ const route = require('express').Router()
 const multer=require('multer')
 
 const upload=multer({dest:'uploads/'})
-const{}=require('../../controlers/product')
+const{createproduct,getproductsBydealerid}=require('../../controlers/product')
 
 const {products}=require('../../database/models')
 const fs=require('fs').promises
@@ -30,18 +30,16 @@ route.post('/',upload.single('product'),async(req,res)=>{
         }
         //
     });
-    const data = await products.create({
-       name:req.body.name,
-       type:req.body.type,
-       subtype:req.body.subtype,
-       price:req.body.price,
-       quantity:req.body.quantity,
-       description:req.body.description,
-       image: '/images/'+req.body.name+'.'+req.file.mimetype.split('/').pop()
-    })
+    let image= '/images/'+req.body.name+'.'+req.file.mimetype.split('/').pop();
+    const data = await createproduct(req.body.name,req.body.type,req.body.subtype,req.body.price,req.body.quantity,req.body.description,image,req.session.user)
+    console.log(data)    
     res.redirect('/')
 })
 
+route.get(`/:dealerId`, async (req,res)=>{
+    const data= await getproductsBydealerid(req.params.dealerId);
+    res.send(data);
+})
 
 module.exports={
     proute:route

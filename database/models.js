@@ -1,6 +1,5 @@
 const Sequelize=require('sequelize')
-const product = require('../routes/product/product')
-const user = require('../routes/users/user')
+
 const data=Sequelize.DataTypes
 
 
@@ -147,6 +146,7 @@ carts.belongsTo(products)
 dealers.hasMany(carts)
 carts.belongsTo(dealers)
 
+
 products.hasMany(orders)
 orders.belongsTo(products)
 
@@ -156,23 +156,8 @@ orders.belongsTo(dealers)
 users.hasMany(orders)
 orders.belongsTo(users)
 
-
-
-// orders.belongsTo(users)
-// users.hasMany(orders)
-
-// dealers.hasMany(products)
-// products.belongsTo(dealers)
-// orders.belongsTo(dealers)
-// dealers.hasMany(orders)
-
-
-// // products.hasMany(users)
-// products.hasOne(dealers)
-
-// orders.hasMany(products)
-// products.hasMany(orders)
-
+dealers.hasMany(products)
+products.belongsTo(dealers)
 
 
 
