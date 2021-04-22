@@ -8,25 +8,25 @@ const {createproduct}= require('../controlers/product')
 
 
 
-const {name}=require('./mi.json')
-
-let type="mobile";
-let subtype="mi";
+const {saree}=require('./saree.json')
+let name=saree;
+let type="women";
+let subtype="saree";
 
 
 let a=1;
-for(let i=1;i<17;i++){
+for(let i=1;i<26;i++){
   let p=name[i-1];
-  let nam=p.name
+  let nam=p.saree
   let price=p.price
-  let description="";
-  for(a of p.body){
-    description+=`${a.name}`
-    // console.log(`${a.name}`)
-  }
+  let description=p.body;
+  // for(a of p.body){
+  //   description+=`${a.name}`
+  //   // console.log(`${a.name}`)
+  // }
   let quantity=5;
-  let user=1
-  image='/images/mobile/mi/'+`1(${i}).jpeg`;
+  let user=3
+  image='/images/women/saree/'+`1(${i}).jpeg`;
   createproduct(nam,type,subtype,price,quantity,description,image,user)
   //console.log(nam,type,subtype,price,quantity,description,image,user)
 

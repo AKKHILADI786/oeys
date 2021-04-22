@@ -1,0 +1,394 @@
+{
+ "t_shirt": [
+  {
+   "name": "Solid Men Polo Neck White T-Shirt",
+   "price": "₹699",
+   "body": [
+    {
+     "name": "65% off"
+    },
+    {
+     "name": "Buy ₹100 more, save extra 10%"
+    }
+   ]
+  },
+  {
+   "name": "Printed Men Round Neck Black T-Shirt",
+   "price": "₹494",
+   "body": [
+    {
+     "name": "55% off"
+    },
+    {
+     "name": "Buy ₹100 more, save extra 10%"
+    }
+   ]
+  },
+  {
+   "name": "Color Block Men Round Neck Black T-Shirt",
+   "price": "₹399",
+   "body": [
+    {
+     "name": "69% off"
+    }
+   ]
+  },
+  {
+   "name": "Striped Men Hooded Neck Red, Black T-Shirt",
+   "price": "₹223",
+   "body": [
+    {
+     "name": "77% off"
+    }
+   ]
+  },
+  {
+   "name": "Athleisure Striped Men Boat Neck Grey T-Shirt",
+   "price": "₹208",
+   "body": [
+    {
+     "name": "62% off"
+    }
+   ]
+  },
+  {
+   "name": "Athleisure Striped Men Round Neck Blue T-Shirt",
+   "price": "₹208",
+   "body": [
+    {
+     "name": "62% off"
+    },
+    {
+     "name": "Buy ₹100 more, save extra 10%"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Polo Neck White, Black T-Shirt",
+   "price": "₹324",
+   "body": [
+    {
+     "name": "75% off"
+    }
+   ]
+  },
+  {
+   "name": "Striped Men Round Neck Maroon, Grey T-Shirt",
+   "price": "₹281",
+   "body": [
+    {
+     "name": "79% off"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Mandarin Collar White, Black T-Shirt",
+   "price": "₹287",
+   "body": [
+    {
+     "name": "85% off"
+    },
+    {
+     "name": "Buy 3 items, save extra 10%"
+    }
+   ]
+  },
+  {
+   "name": "Printed Men Hooded Neck Black T-Shirt",
+   "price": "₹359",
+   "body": [
+    {
+     "name": "74% off"
+    }
+   ]
+  },
+  {
+   "name": "Color Block Men Round Neck Black, White T-Shirt",
+   "price": "₹299",
+   "body": [
+    {
+     "name": "85% off"
+    },
+    {
+     "name": "Buy 3 items, save extra 10%"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Henley Neck Red, Black T-Shirt",
+   "price": "₹320",
+   "body": [
+    {
+     "name": "77% off"
+    }
+   ]
+  },
+  {
+   "name": "Printed Men Round Neck Dark Blue, Red, Green T-Shirt",
+   "price": "₹629",
+   "body": [
+    {
+     "name": "84% off"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Polo Neck Black T-Shirt",
+   "price": "₹584",
+   "body": [
+    {
+     "name": "35% off"
+    }
+   ]
+  },
+  {
+   "name": "Typography Men Hooded Neck Multicolor T-Shirt",
+   "price": "₹272",
+   "body": [
+    {
+     "name": "80% off"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Mandarin Collar Blue, Maroon T-Shirt",
+   "price": "₹479",
+   "body": [
+    {
+     "name": "80% off"
+    }
+   ]
+  },
+  {
+   "name": "Striped Men Round Neck Yellow T-Shirt",
+   "price": "₹249",
+   "body": [
+    {
+     "name": "80% off"
+    }
+   ]
+  },
+  {
+   "name": "Printed Men Hooded Neck Red T-Shirt",
+   "price": "₹319",
+   "body": [
+    {
+     "name": "84% off"
+    }
+   ]
+  },
+  {
+   "name": "Striped Men Round Neck Black T-Shirt",
+   "price": "₹339",
+   "body": [
+    {
+     "name": "66% off"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Cowl Neck Blue T-Shirt",
+   "price": "₹450",
+   "body": [
+    {
+     "name": "49% off"
+    }
+   ]
+  },
+  {
+   "name": "Printed Men Round Neck White, Black T-Shirt",
+   "price": "₹519",
+   "body": [
+    {
+     "name": "60% off"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Round Neck Multicolor T-Shirt",
+   "price": "₹519",
+   "body": [
+    {
+     "name": "78% off"
+    }
+   ]
+  },
+  {
+   "name": "Color Block Men Round Neck Blue, Yellow T-Shirt",
+   "price": "₹299",
+   "body": [
+    {
+     "name": "70% off"
+    }
+   ]
+  },
+  {
+   "name": "Striped Men Polo Neck Maroon, Light Blue T-Shirt",
+   "price": "₹494",
+   "body": [
+    {
+     "name": "45% off"
+    },
+    {
+     "name": "Buy ₹100 more, save extra 10%"
+    }
+   ]
+  },
+  {
+   "name": "Color Block Men Round Neck Yellow T-Shirt",
+   "price": "₹287",
+   "body": [
+    {
+     "name": "85% off"
+    },
+    {
+     "name": "Buy 3 items, save extra 10%"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Mandarin Collar Green T-Shirt",
+   "price": "₹320",
+   "body": [
+    {
+     "name": "75% off"
+    }
+   ]
+  },
+  {
+   "name": "Striped Men Polo Neck White T-Shirt",
+   "price": "₹349",
+   "body": [
+    {
+     "name": "73% off"
+    }
+   ]
+  },
+  {
+   "name": "Color Block Men Round Neck Multicolor T-Shirt",
+   "price": "₹564",
+   "body": [
+    {
+     "name": "85% off"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Hooded Neck Black T-Shirt",
+   "price": "₹403",
+   "body": [
+    {
+     "name": "68% off"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Round Neck Grey T-Shirt",
+   "price": "₹362",
+   "body": [
+    {
+     "name": "67% off"
+    }
+   ]
+  },
+  {
+   "name": "Athleisure Solid Men Round Neck Orange T-Shirt",
+   "price": "₹208",
+   "body": [
+    {
+     "name": "62% off"
+    }
+   ]
+  },
+  {
+   "name": "Striped Men Round Neck Blue T-Shirt",
+   "price": "₹299",
+   "body": [
+    {
+     "name": "76% off"
+    }
+   ]
+  },
+  {
+   "name": "Printed Men Hooded Neck Black T-Shirt",
+   "price": "₹319",
+   "body": [
+    {
+     "name": "84% off"
+    }
+   ]
+  },
+  {
+   "name": "Striped Men Polo Neck Blue T-Shirt",
+   "price": "₹1,049",
+   "body": [
+    {
+     "name": "11% off"
+    },
+    {
+     "name": "Buy 3 items, save extra 5%"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Mandarin Collar White, Maroon T-Shirt",
+   "price": "₹287",
+   "body": [
+    {
+     "name": "85% off"
+    },
+    {
+     "name": "Buy 3 items, save extra 10%"
+    }
+   ]
+  },
+  {
+   "name": "Striped Men Round Neck Dark Blue, Grey T-Shirt",
+   "price": "₹241",
+   "body": [
+    {
+     "name": "82% off"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Mandarin Collar Blue T-Shirt",
+   "price": "₹292",
+   "body": [
+    {
+     "name": "80% off"
+    }
+   ]
+  },
+  {
+   "name": "Printed Men Collared Neck Blue T-Shirt",
+   "price": "₹399",
+   "body": [
+    {
+     "name": "60% off"
+    }
+   ]
+  },
+  {
+   "name": "Solid Men Mandarin Collar Blue, Maroon, Black T-Shirt",
+   "price": "₹719",
+   "body": [
+    {
+     "name": "76% off"
+    }
+   ]
+  },
+  {
+   "name": "Military Camouflage Men Round Neck Green T-Shirt",
+   "price": "₹599",
+   "body": [
+    {
+     "name": "40% off"
+    },
+    {
+     "name": "Buy ₹100 more, save extra 10%"
+    }
+   ]
+  }
+ ]
+}
