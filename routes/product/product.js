@@ -2,13 +2,15 @@ const route = require('express').Router()
 const multer=require('multer')
 
 const upload=multer({dest:'uploads/'})
-const{createproduct,getproductsBydealerid}=require('../../controlers/product')
+const{createproduct,getproductsBydealerid,getByType}=require('../../controlers/product')
 
 const {products}=require('../../database/models')
 const fs=require('fs').promises
 
-route.get('/',async (req,res)=>{
-    res.send('jai shree ram')
+route.get('/t/:type',async (req,res)=>{
+    const data=await getByType(req.params.type)
+    console.log(data);
+    res.send(data);
 })
 route.post('/',upload.single('product'),async(req,res)=>{
     console.log(req.body)

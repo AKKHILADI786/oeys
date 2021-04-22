@@ -26,6 +26,7 @@ $(()=>{
                 $('#user_login').append(`
                 </div><button class="btn btn-outline-primary " id="logout">Logout</button>
                 `)
+                window.sessionStorage.user=username;
                 activelogout();
             }
         })

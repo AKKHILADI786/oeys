@@ -23,6 +23,8 @@ app.use('/user',require('./routes/users/user').uroute)
 app.use('/dealer',require('./routes/dealers/dealer').droute)
 app.use('/product',require('./routes/product/product').proute)
 
+app.use('/images',express.static(__dirname+'/images'))
+
 db.sync()
     .then(()=>{
         app.listen(PORT,()=>{

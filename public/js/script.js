@@ -1,13 +1,17 @@
 $(()=>{
     $('#profile').click(()=>{
+       console.log($('h2').data('aa'))
         $('#content').empty()
         $('#footer_box').empty()
-        $('#content').load('html/add_product.html')
+        $('#content').load('html/products.html')
     })
+
+
 
     $.get('/user/islogin',(data)=>{
         console.log('islogin clicked')
         if(data){
+            
             $('#user_login').empty()
             $('#user_login').append(`
                 </div><button class="btn btn-outline-primary " id="logout">Logout</button>
@@ -63,6 +67,15 @@ $(()=>{
 
 
 })
+
+function getinner(data){
+    // for get the type of data
+    window.sessionStorage.product=data.innerText;
+    $('#content').empty()
+    // $('#footer_box').empty()
+    $('#content').load('html/products.html')
+    
+}
 
 console.log('js connected')
 

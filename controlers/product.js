@@ -1,5 +1,5 @@
 const {db,users,dealers,products} =require('../database/models');
-
+const { Op } = require("sequelize");
 
 async function createproduct(name,type,subtype,price,quantity,description,image,dealerId){
     
@@ -27,9 +27,20 @@ async function getproductsBydealerid(dealerId){
     return data;
 }
 
+async function getByType(type){
+    const data=await products.findAll({
+        where:{
+            [Op.or]:[
+                {type:type},
+                {subtype:type}
+            ]
+        }
+    })
+    return data;
+}
 
 
 
 module.exports={
-    createproduct,getproductsBydealerid
+    createproduct,getproductsBydealerid,getByType
 }

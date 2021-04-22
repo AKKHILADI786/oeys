@@ -4,6 +4,7 @@ const { createuser, getuser, getbyusername } = require('../../controlers/users')
 
 
 
+
 route.get('/', async (req, res) => {
     const data = await getuser();
     res.status(201).send(data);
