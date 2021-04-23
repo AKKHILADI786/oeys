@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify</title>
+  <!-- Third party library -->
+  <script defer src="js/jquery-3.6.0.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script defer src="js/popper.js"></script>
+  <script defer src="js/bootstrap.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+  <!-- own library -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/product_details.css">
+
+  <script defer src="js/script.js"></script>
+  <script defer src="../app/product_details.js"></script>
+
+</head>
+
+<body>
+
+    <div class="row my-2 d-flex justify-content-around top mx-0">
+      <div class="col-3 text-center">
+        <h2 class="" id="profile" data-aa="akshay">Shopify.Com</h2>
+      </div>
+
+
+      <div class="col-4 my-1 bar">
+        <div class="container wrap ">
+          <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search ic"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-3 d-flex justify-content-end">
+        
+        <div id="user_login"><button class="btn btn-outline-primary " id="login">LogIn</button></div>
+        <button class="btn btn-primary  ms-3" id="cart">Cart <span calss="carrt"><i
+              class="fa fa-shopping-cart"></i></span></button>
+      </div>
+    </div>
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active menu_text" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu_text" href="#">Best Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu_text" href="#">Today Deals</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menu_text" onclick="getinner(this)" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Electronics
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Smart Wearable Tech</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Smart Watches</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Smart Glasses (VR)</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Smart Bands</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Health Care Appliances</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Bp Monitors</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Weighing Scale</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Laptops</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Gaming Laptops</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Desktop PCs</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Gaming & Accessories</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Computer Accessories</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">External Hard Disks</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Pendrives</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Laptop Skins & Decals</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Laptop Bags</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Mouse</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Computer Peripherals</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Printers & Ink Cartridges</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Monitors</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Tablets</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Apple iPads</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menu_text" onclick="getinner(this)" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Mobile
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Mi</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Realme</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Samsung</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Infinix</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">OPPO</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Apple</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Vivo</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Honor</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Asus</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Poco X2</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">realme Narzo 10</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Infinix Hot 9</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">IQOO 3</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">iPhone SE</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Motorola razr</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">realme Narzo 10A</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Motorola g8 power lite</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menu_text" onclick="getinner(this)" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Appliances
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Irons</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Water Purifiers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Fans</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Air Coolers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Inverters</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Vacuum Cleaners</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Sewing Machines</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Voltage Stabilizers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Water Geysers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Immersion Rods</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Microwave Ovens</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Oven Toaster Grills (OTG)</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Juicer/Mixer/Grinder</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Electric Kettle</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Induction Cooktops</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Chimneys</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Hand Blenders</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Sandwich Makers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Pop Up Toasters</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Electric Cookers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Wet Grinders</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Food Processors</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Coffee Makers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Dishwashers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Healthy Living Appliances</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Refrigerators</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menu_text" onclick="getinner(this)" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Mens
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Clothing</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Top wear</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">T-Shirts</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Formal Shirts</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Casual Shirts</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Bottom wear</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Jeans</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Casual Trousers</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Formal Trousers</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Track pants</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Shorts</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Cargos</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Three Fourths</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Suits, Blazers & Waistcoats</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Ties, Socks, Caps & More</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Fabrics</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Winter Wear</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Sweatshirts</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Jackets</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Sweater</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Tracksuits</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Ethnic wear</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Kurta</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Ethnic Sets</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Sherwanis</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Ethnic Pyjama</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Dhoti</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Lungi</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Innerwear & Loungewear</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Briefs & Trunks</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Vests</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Boxers</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Pyjamas and Lounge Pants</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Thermals</a></li>
+                    <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Night Suits</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menu_text" onclick="getinner(this)" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Womens
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+      
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Women Western & Maternity Wear</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Topwear</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Dresses</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Jeans</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Shorts</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Skirts</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Jeggings & Tights</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Trousers & Capris</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Lingerie & Sleepwear</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Bras</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Panties</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Lingerie Sets</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Night Dresses & Nighties</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Shapewear</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Camisoles & Slips</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Swim & Beachwear</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Party Dresses</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Sports Wear</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Winter Wear</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Ethnic Wear</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Sarees</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Kurtas & Kurtis</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Dress Material</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Lehenga Choli</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Blouse</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Kurta Sets & Salwar Suits</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Gowns</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Dupattas</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Ethnic Bottoms</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Leggings & Churidars</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Palazzos</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Shararas</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Salwars & Patiala</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Dhoti Pants</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Ethnic Trousers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Saree Shapewear & Petticoats               </a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menu_text" onclick="getinner(this)" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Sports
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Sports</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Cricket</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Badminton</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Cycling</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Football</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Skating</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Camping & Hiking</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Swimming</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Exercise Fitness</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Cardio Equipment</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Home Gyms</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Support</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Dumbbells</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Ab Exercisers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Shakers & Sippers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Yoga Mat</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Gym Gloves</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menu_text" onclick="getinner(this)" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Books
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Entrance Exams</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Academics</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Literature & Fiction</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Non Fiction</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Young Readers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Self-Help</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">E-Learning</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Preorders</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Indian Languages</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Stationery</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Pens</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Diaries</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Card Holders</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Desk Organizers</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Calculators</a></li>
+                  <li><a class="dropdown-item menu_text" onclick="getinner(this)" href="#">Key Chains                 </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu_text" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu_text" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <div class="content container" id="content">
+    <div class="row m-3 border border-primary p-3">
+        <div class="col-5">
+            <img src="../images/card/3.jpg" alt="images">
+        </div>
+        <div class="col-7">
+            <div class="row">
+                <h3>Product Name</h3>
+            </div>
+            <div class="row">
+                <h4>Price Rs.78956/-</h4>
+                <h6>Rating 🌟🌟🌟🌟🌟</h6>
+
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    This is a quite awesome product 
+                With lots of quality and properties
+                lkjadsf
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="col-6">
+                    <div class="btn btn-primary" id="add_cart">add product</div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    
+  </div>
+  <div class="footer_box" id="footer_box">
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <span>Shopify</span>
+          <small class="d-block mb-3 text-muted">© 2017–2021</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary" href="#">Random feature</a></li>
+            <li><a class="link-secondary" href="#">Team feature</a></li>
+            <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+            <li><a class="link-secondary" href="#">Another one</a></li>
+            <li><a class="link-secondary" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Resource name</a></li>
+            <li><a class="link-secondary" href="#">Resource</a></li>
+            <li><a class="link-secondary" href="#">Another resource</a></li>
+            <li><a class="link-secondary" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Business</a></li>
+            <li><a class="link-secondary" href="#">Education</a></li>
+            <li><a class="link-secondary" href="#">Government</a></li>
+            <li><a class="link-secondary" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Team</a></li>
+            <li><a class="link-secondary" href="#">Locations</a></li>
+            <li><a class="link-secondary" href="#">Privacy</a></li>
+            <li><a class="link-secondary" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

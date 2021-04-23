@@ -39,8 +39,12 @@ async function getByType(type){
     return data;
 }
 
+async function getbyproductid(productId){
+    const data=products.findByPk(productId)
+    return data;
+}
 
 
 module.exports={
-    createproduct,getproductsBydealerid,getByType
+    createproduct,getproductsBydealerid,getByType,getbyproductid
 }

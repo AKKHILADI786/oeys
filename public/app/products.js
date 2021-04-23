@@ -1,5 +1,5 @@
 $(()=>{
-    let pro=window.sessionStorage.product;
+    let pro=window.sessionStorage.product; // for types of products selected at main window
     console.log(pro)
     $.get(`/product/t/${pro}`,(data)=>{
         console.log(data);
@@ -21,7 +21,7 @@ $(()=>{
                <div>
                    <div class="text-center">${p.name}<br>${p.description.substr(0,100)}...</div>
                    <div class="d-flex align-items-center justify-content-center">
-                       <button class="btn btn-outline-warning remove"><span id="remove_text">Add</span></button>
+                       <button class="btn btn-outline-warning remove" onclick="getproductid(this)" data-code="${p.id}"><span id="remove_text">Add</span></button>
                    </div>
                </div>
 
@@ -40,6 +40,10 @@ $(()=>{
        } 
     })
 
-
-
 })
+
+function getproductid(aaa){
+    console.log($(aaa).data('code'))
+    window.sessionStorage.productId=$(aaa).data('code');
+    window.open("/pro");
+}

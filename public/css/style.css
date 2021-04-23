@@ -89,9 +89,11 @@
 }
 
 /* dropmenu */
+
 .dropdown:hover .dropdown-menu {
     display: block;
   }
+  
 li .dropdown-menu{
     width: 300px !important;
     max-height: 500px !important;
