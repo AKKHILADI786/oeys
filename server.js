@@ -23,6 +23,8 @@ app.use('/',express.static(__dirname+'/public'))
 app.use('/user',require('./routes/users/user').uroute)
 app.use('/dealer',require('./routes/dealers/dealer').droute)
 app.use('/product',require('./routes/product/product').proute)
+app.use('/cart',require('./routes/carts/cart').croute)
+
 
 app.use('/images',express.static(__dirname+'/images'))
 
