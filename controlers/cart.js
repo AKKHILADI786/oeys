@@ -1,8 +1,9 @@
-const {db,users,dealers,carts} =require('../database/models');
+const {db,users,dealers,carts, products} =require('../database/models');
 
 
 async function getcartByuserId(userId){
     const data=await carts.findAll({
+        include:[products],
         where:{
             userId
         }
@@ -19,7 +20,17 @@ async function createCartProduct(userId,productId,dealerId){
     return data;
 }
 
+async function deleteCartProductbyId(productId){
+    const data=carts.destroy({
+        where:{
+            productId:productId
+        }
+    })
+    return data;
+}
+
+
 module.exports={
-    createCartProduct,getcartByuserId
+    createCartProduct,getcartByuserId,deleteCartProductbyId
 
 }

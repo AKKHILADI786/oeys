@@ -45,6 +45,7 @@ async function getbyproductid(productId){
 }
 
 
+
 module.exports={
     createproduct,getproductsBydealerid,getByType,getbyproductid
 }
