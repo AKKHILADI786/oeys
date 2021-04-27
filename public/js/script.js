@@ -3,7 +3,7 @@ $(()=>{
        console.log($('h2').data('aa'))
         $('#content').empty()
         $('#footer_box').empty()
-        $('#content').load('html/products.html')
+        $('#content').load('html/payment.html')
     })
 
 

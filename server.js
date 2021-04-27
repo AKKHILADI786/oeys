@@ -24,6 +24,7 @@ app.use('/user',require('./routes/users/user').uroute)
 app.use('/dealer',require('./routes/dealers/dealer').droute)
 app.use('/product',require('./routes/product/product').proute)
 app.use('/cart',require('./routes/carts/cart').croute)
+app.use('/order',require('./routes/orders/order').oroute)
 
 
 app.use('/images',express.static(__dirname+'/images'))

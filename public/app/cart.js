@@ -1,8 +1,11 @@
+let cart_product_items=[];
+
 $(()=>{
     let a=JSON.parse(window.localStorage.shopifyuser)
     $.get(`/cart/${a}`,(data)=>{
         let total_price=0;
         let c=0;
+        cart_product_items=data;
         for(p of data){
             c++;
             console.log(p)
@@ -66,4 +69,7 @@ function delele(name){
 }
 $('#continue_shoping').click(()=>{
     location.reload('index.html')
+})
+$('#checkout').click(()=>{
+    $('#content').load('html/payment.html')
 })

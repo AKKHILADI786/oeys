@@ -28,9 +28,17 @@ async function deleteCartProductbyId(productId){
     })
     return data;
 }
+async function deleteCartUserbyId(userId){
+    const data=carts.destroy({
+        where:{
+            userId:userId
+        }
+    })
+    return data;
+}
 
 
 module.exports={
-    createCartProduct,getcartByuserId,deleteCartProductbyId
+    createCartProduct,getcartByuserId,deleteCartProductbyId,deleteCartUserbyId
 
 }
