@@ -4,12 +4,13 @@ const {getcartByuserId,createCartProduct}=require('../../controlers/cart')
 
 route.get('/:userId',async (req,res)=>{
     const data=await getcartByuserId(req.params.userId);
-    return data;
+    res.send(data);
 })
 
 route.post('/',async (req,res)=>{
+    console.log(req.body.userId,req.body.productId,req.body.dealerId);
     const data=await createCartProduct(req.body.userId,req.body.productId,req.body.dealerId);
-    return data;
+    res.send(data);
 })
 
 

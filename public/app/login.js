@@ -26,6 +26,9 @@ $(()=>{
                 $('#user_login').append(`
                 </div><button class="btn btn-outline-primary " id="logout">Logout</button>
                 `)
+                console.log(data[0].id)
+                window.localStorage.shopifyuser=data[0].id;
+                console.log(window.localStorage.shopifyuser)
                 activelogout();
             }
         })

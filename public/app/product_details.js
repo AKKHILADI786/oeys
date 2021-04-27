@@ -26,7 +26,7 @@ $(() => {
             </div>
             <div class="row"> 
                 <div class="col-6">
-                    <div class="btn btn-primary" id="add_cart">add product</div>
+                    <div class="btn btn-primary" id="add_to_cart">add product</div>
                 </div>
                 
             </div>
@@ -34,6 +34,35 @@ $(() => {
         </div>
     </div>
             `)
+
+            enablecaart(data);
     })
+   
     // console.log('add button clicked')
 })
+
+function enablecaart(product_data){
+    $('#add_to_cart').click(()=>{
+        console.log('add cart clicked')
+        $.get('/user/islogin',(data)=>{
+            if(data){
+                let a=JSON.parse(window.localStorage.shopifyuser);
+                let userId=a;
+                let productId=product_data.id;
+                let dealerId=product_data.dealerId;
+                console.log(userId,productId,dealerId)
+                $.post('/cart',{
+                    userId,
+                    productId,
+                    dealerId
+                },(data)=>{
+                    $('#content').load('html/cart.html')
+                    console.log('prouct is added')
+                })
+            }
+            else{
+                window.alert('please login first')
+            }
+        })
+    })
+}
