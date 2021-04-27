@@ -1,0 +1,1009 @@
+{
+    "washing": [
+        {
+            "name": "MSI GF63 Thin Core i5 9th Gen - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650...",
+            "price": "₹54,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (9th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Cooler Boost, Audio Boost, Dragon Center, Nahimic 3"
+                },
+                {
+                    "name": "2 Years Carry In Warranty"
+                }
+            ]
+        },
+        {
+            "name": "acer Aspire 7 Ryzen 5 Quad Core 3550H - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce ...",
+            "price": "₹50,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Quad Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Acer Collection, Quick Access, Acer Product Registration, Acer Care Center"
+                },
+                {
+                    "name": "1 Year International Travelers Warranty (ITW)"
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Ideapad Gaming 3 Ryzen 5 Hexa Core 4600H - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graph...",
+            "price": "₹59,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Hexa Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "MSI Bravo 15 Ryzen 5 Hexa Core 4600H - (16 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/AMD Radeon RX 5...",
+            "price": "₹72,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Hexa Core Processor"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Cooler Boost, Audio Boost, Dragon Center, Nahimic 3"
+                },
+                {
+                    "name": "1 Year Warranty"
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Legion 5 Ryzen 5 Hexa Core 4600H - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForc...",
+            "price": "₹66,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Hexa Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "acer Aspire 7 Core i5 9th Gen - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650...",
+            "price": "₹54,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (9th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Acer Collection, Acer Product Registration , Quick Access, Acer Care Center"
+                },
+                {
+                    "name": "1 Year International Travelers Warranty (ITW)"
+                }
+            ]
+        },
+        {
+            "name": "ASUS TUF Gaming F15 Core i5 10th Gen - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce G...",
+            "price": "₹62,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS ROG Strix G15 Core i5 10th Gen - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GT...",
+            "price": "₹69,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "MSI GF65 Thin Core i5 9th Gen - (16 GB/512 GB SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce GTX 166...",
+            "price": "₹71,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (9th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Matrix Display, Dragon Center, Cooler Boost 5, True Color 2.0, Nahimic 3"
+                },
+                {
+                    "name": "2 Year Warranty"
+                }
+            ]
+        },
+        {
+            "name": "HP Pavilion Gaming Ryzen 5 Quad Core 3550H - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/NVIDIA GeFor...",
+            "price": "₹51,490",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Quad Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "MSI GF63 Thin Core i7 9th Gen - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650...",
+            "price": "₹64,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (9th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Cooler Boost, Audio Boost, Dragon Center, Nahimic 3"
+                },
+                {
+                    "name": "2 Years Carry In Warranty"
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Ideapad Gaming 3i Core i5 10th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NV...",
+            "price": "₹62,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS ROG Strix G15 (2020) Core i7 10th Gen - (16 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Ge...",
+            "price": "₹84,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "HP Omen 15 Ryzen 7 Octa Core 4800H - (16 GB/1 TB SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce RTX ...",
+            "price": "₹1,21,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 7 Octa Core Processor"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "HP Documentation, HP BIOS Recovery, HP e-service, HP Smart, HP SSRM, HP Jumpstarts"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "HP Pavilion Gaming Ryzen 5 Hexa Core 4600H - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/N...",
+            "price": "₹64,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Hexa Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "HP Documentation, HP e-service, HP BIOS Recovery, HP SSRM, HP Smart, HP Jumpstarts, HP Audio Switch, HP Audio Boost, HP Support Assistant, Dropbox, OMEN Command Center"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "MSI GF65 Thin Core i7 9th Gen - (16 GB/512 GB SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce RTX 206...",
+            "price": "₹89,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (9th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Shift, Cooler Boost 5, True Color 2.0, Nahimic 3"
+                },
+                {
+                    "name": "2 Year Carry In Warranty"
+                }
+            ]
+        },
+        {
+            "name": "Lenovo IdeaPad Gaming 3i Core i5 10th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NV...",
+            "price": "₹64,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS ROG Strix G15 (2020) Core i7 10th Gen - (16 GB/1 TB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeFo...",
+            "price": "₹92,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS VivoBook Gaming Core i7 9th Gen - (16 GB + 32 GB Optane/512 GB SSD/Windows 10 Home/4 GB Graphics/...",
+            "price": "₹72,990",
+            "body": [
+                {
+                    "name": "120 Hz Refresh Rate- It can display upto 120 frames per second."
+                },
+                {
+                    "name": "Intel Core i7 Processor (9th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Asus GiftBox, ICEsound, Asus Splendid"
+                },
+                {
+                    "name": "1 Year Limited International Hardware Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS TUF Gaming F15 Core i7 10th Gen - (16 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce ...",
+            "price": "₹84,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "acer Predator Helios 300 Core i5 10th Gen - (16 GB/1 TB HDD/256 GB SSD/Windows 10 Home/6 GB Graphics/N...",
+            "price": "₹92,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "PredatorSense, Acer Product Registration, Acer Care Center, Acer Collection, Quick Access"
+                },
+                {
+                    "name": "1 Year International Travelers Warranty (ITW)"
+                }
+            ]
+        },
+        {
+            "name": "ASUS ROG Strix Scar 17 Core i9 10th Gen - (32 GB/2 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce...",
+            "price": "₹2,39,990",
+            "body": [
+                {
+                    "name": "Intel Core i9 Processor (10th Gen)"
+                },
+                {
+                    "name": "32 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "2 TB SSD"
+                },
+                {
+                    "name": "43.94 cm (17.3 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Ideapad Gaming 3 Ryzen 7 Octa Core 4800H - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDI...",
+            "price": "₹71,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 7 Octa Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS VivoBook Gaming (2020) Core i7 10th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics...",
+            "price": "₹69,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "My Asus, Splendid, Tru2Life"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "MSI GP66 Leopard Core i7 10th Gen - (16 GB/1 TB SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce RTX 3...",
+            "price": "₹1,54,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Killer DoubleShot Pro, Dragon Center, Cooler Boost 5, Nahimic VR, True Color 2.0, Nahimic 3"
+                },
+                {
+                    "name": "2 Years Carry In Warranty"
+                }
+            ]
+        },
+        {
+            "name": "HP Omen Ryzen 5 Hexa Core 4600H - (8 GB/512 GB SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce GTX 16...",
+            "price": "₹79,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Hexa Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS ROG Strix G15 Core i7 10th Gen - (16 GB/512 GB SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce G...",
+            "price": "₹99,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "acer Predator Helios 300 Core i7 10th Gen - (16 GB/2 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeFor...",
+            "price": "₹1,50,490",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "2 TB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "PredatorSense, Acer Product Registration, Acer Care Center, Acer Collection, Quick Access"
+                },
+                {
+                    "name": "1 Year International Travelers Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS TUF Gaming F15 Core i5 10th Gen - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce G...",
+            "price": "₹66,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "Lenovo IdeaPad Gaming 3i Core i7 10th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NV...",
+            "price": "₹77,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS Core i9 10th Gen - (32 GB/1 TB SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce RTX 2060) UX581LV...",
+            "price": "₹2,69,990",
+            "body": [
+                {
+                    "name": "Intel Core i9 Processor (10th Gen)"
+                },
+                {
+                    "name": "32 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Touchscreen Display"
+                },
+                {
+                    "name": "My Asus, Splendid, Tru2Life"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "MSI GL65 Leopard Core i7 10th Gen - (16 GB/1 TB HDD/256 GB SSD/Windows 10 Home/6 GB Graphics/NVIDIA Ge...",
+            "price": "₹1,09,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Matrix Display, Dragon Center, Cooler Boost 5, True Color 2.0, Nahimic 3"
+                },
+                {
+                    "name": "2 Year Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ALIENWARE Core i7 10th Gen - (16 GB/1 TB SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce RTX 2060/300...",
+            "price": "₹1,99,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Complete Cover Warranty"
+                }
+            ]
+        },
+        {
+            "name": "MSI GE66 Raider Core i7 10th Gen - (32 GB/1 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce RTX 20...",
+            "price": "₹1,94,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "32 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Dragon Center, Cooler Boost 5, Nahimic VR, True Color 2.0, Nahimic 3"
+                },
+                {
+                    "name": "2 Years Carry In Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS TUF Gaming Core i5 9th Gen - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 16...",
+            "price": "₹64,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (9th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "HP Pavilion Gaming Core i5 10th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA G...",
+            "price": "₹83,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "40.89 cm (16.1 inch) Display"
+                },
+                {
+                    "name": "HP Support Assistant, HP Audio Boost, HP Audio Switch, HP Documentation, HP e-service, HP BIOS Recovery, HP SSRM, HP Jumpstarts, Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Legion 5 Core i7 10th Gen - (16 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeF...",
+            "price": "₹89,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "HP Omen Ryzen 5 Hexa Core 4600H - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 16...",
+            "price": "₹69,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Hexa Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "ASUS TUF Gaming F15 Core i5 10th Gen - (16 GB/512 GB SSD/Windows 10 Home/6 GB Graphics/NVIDIA GeForce ...",
+            "price": "₹82,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        }
+    ]
+}

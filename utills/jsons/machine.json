@@ -1,0 +1,496 @@
+{
+    "washing": [
+        {
+            "name": "SAMSUNG 6 kg 5 star Inverter Fully Automatic Front Load with In-built Heater White",
+            "price": "₹22,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6 kg | Max Spin Speed: 1000 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "3 Years on Product and 10 Years on Motor from Samsung"
+                }
+            ]
+        },
+        {
+            "name": "IFB 6 kg 5 Star Fully Automatic Front Load with In-built Heater White",
+            "price": "₹22,290",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6 kg | Max Spin Speed: 800 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble Wash"
+                },
+                {
+                    "name": "8 Wash Programs"
+                },
+                {
+                    "name": "4 Years Comprehensive Warranty and 10 Years Spare Part Support from IFB"
+                }
+            ]
+        },
+        {
+            "name": "IFB 8 kg 5 Star Fully Automatic Front Load with In-built Heater Silver",
+            "price": "₹34,994",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 8 kg | Max Spin Speed: 1400 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble Wash"
+                },
+                {
+                    "name": "Digital Display Supported | 14 Wash Programs"
+                },
+                {
+                    "name": "4 Years Comprehensive Warranty and 10 Years Spare Part Support from IFB"
+                }
+            ]
+        },
+        {
+            "name": "MOTOROLA 7 kg Inverter Technology Fully Automatic Front Load with In-built Heater White",
+            "price": "₹25,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 7 kg | Max Spin Speed: 1400 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble Wash"
+                },
+                {
+                    "name": "Digital Display Supported | 15 Wash Programs"
+                },
+                {
+                    "name": "2 Years Comprehensive and 10 Years on Motor from Motorola"
+                }
+            ]
+        },
+        {
+            "name": "IFB 6 kg 5 Star Fully Automatic Front Load with In-built Heater Silver",
+            "price": "₹24,299",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6 kg | Max Spin Speed: 800 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble Wash"
+                },
+                {
+                    "name": "15 Wash Programs"
+                },
+                {
+                    "name": "4 years comprehensive warranty and 10 years Warranty on spare part support from IFB"
+                }
+            ]
+        },
+        {
+            "name": "IFB 7 kg Fully Automatic Front Load with In-built Heater Black, White",
+            "price": "₹28,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 7 kg | Max Spin Speed: 1000 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "Digital Display Supported | 10 Wash Programs"
+                },
+                {
+                    "name": "4 Years Comprehensive Warranty on Product and 10 Years Spare Part Support from IFB"
+                }
+            ]
+        },
+        {
+            "name": "LG 8 kg 5 Star Fully Automatic Front Load with In-built Heater Silver",
+            "price": "₹34,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 8 kg | Max Spin Speed: 1200 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "2 Years on Product and 10 Years on Motor from LG"
+                }
+            ]
+        },
+        {
+            "name": "LG 6 kg 5 Star Fully Automatic Front Load with In-built Heater White",
+            "price": "₹24,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6 kg | Max Spin Speed: 1000 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "2 Years on Product and 10 Years on Motor from LG"
+                }
+            ]
+        },
+        {
+            "name": "IFB 6 kg Fully Automatic Front Load with In-built Heater Black, White",
+            "price": "₹23,090",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6 kg | Max Spin Speed: 800 RPM"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "Digital Display Supported | 15 Wash Programs"
+                },
+                {
+                    "name": "4 Years Comprehensive Warranty on Product and 10 Years on Spare Part Support From IFB"
+                }
+            ]
+        },
+        {
+            "name": "IFB 6 kg Fully Automatic Front Load with In-built Heater White",
+            "price": "₹22,990",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6 kg | Max Spin Speed: 800 RPM"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "Digital Display Supported | 15 Wash Programs"
+                },
+                {
+                    "name": "4 Years Comprehensive Warranty and 10 Years Spare Part Support From IFB"
+                }
+            ]
+        },
+        {
+            "name": "BOSCH 6 kg 5 Star INVERTER TOUCH CONTROL Fully Automatic Front Load White",
+            "price": "₹23,990",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "Capacity: 6 kg | Max Spin Speed: 1000 rpm"
+                },
+                {
+                    "name": "Plastic | Pulsator"
+                },
+                {
+                    "name": "2 Years Comprehensive Warranty on Product and 10 Years on Motor from Bosch"
+                }
+            ]
+        },
+        {
+            "name": "BOSCH 8 kg 5 Star INVERTER TOUCH CONTROL Fully Automatic Front Load with In-built Heater White",
+            "price": "₹34,990",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 8 kg | Max Spin Speed: 1200 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble Wash"
+                },
+                {
+                    "name": "2 Years on Product and 12 Years on Motor from Bosch"
+                }
+            ]
+        },
+        {
+            "name": "Motorola 6.5 kg 5 Star Smart Wi-Fi Enabled Inverter Technology Fully Automatic Front Load with In-buil...",
+            "price": "₹27,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6.5 kg | Max Spin Speed: 1000 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Pulsator Wash"
+                },
+                {
+                    "name": "Digital Display Supported | 16 Wash Programs"
+                },
+                {
+                    "name": "2 Years Comprehensive and 10 Years on Motor From Motorola"
+                }
+            ]
+        },
+        {
+            "name": "IFB 7 kg 5 Star Fully Automatic Front Load with In-built Heater Silver",
+            "price": "₹31,690",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 7 kg | Max Spin Speed: 1000 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "Lint Filter Supported"
+                },
+                {
+                    "name": "4 Years Comprehensive Warranty and 10 Years Spare Part Support From IFB"
+                }
+            ]
+        },
+        {
+            "name": "LG 7 kg 5 Star Fully Automatic Front Load with In-built Heater Silver",
+            "price": "₹32,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 7 kg | Max Spin Speed: 1200 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "2 Years on Product and 10 Years on Motor from LG"
+                }
+            ]
+        },
+        {
+            "name": "BOSCH 7 kg INVERTER TOUCH CONTROL Fully Automatic Front Load with In-built Heater White",
+            "price": "₹31,990",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 7 kg | Max Spin Speed: 1200 RPM"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "2 Years Warranty on Product and 12 Years Warranty on Motor"
+                }
+            ]
+        },
+        {
+            "name": "SAMSUNG 6 kg Fully Automatic Front Load Silver",
+            "price": "₹24,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6 kg | Max Spin Speed: 1000 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Pulsator"
+                },
+                {
+                    "name": "3 Years on Product and 10 Years Warranty on Motor"
+                }
+            ]
+        },
+        {
+            "name": "Iffalcon 8 kg Energy Efficient, Auto Error Diagnosis Fully Automatic Front Load with In-built Heater W...",
+            "price": "₹24,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "Capacity: 8 kg | Max Spin Speed: 1200 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Pulsator"
+                },
+                {
+                    "name": "Digital Display Supported | 16 Wash Programs"
+                },
+                {
+                    "name": "1 Year Domestic Warranty on Entire Product and 5 Years Warranty on Motor from Iffalcon"
+                }
+            ]
+        },
+        {
+            "name": "IFB 6.5 kg 5 Star Fully Automatic Front Load with In-built Heater Silver",
+            "price": "₹30,290",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6.5 kg | Max Spin Speed: 1000 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Tumble"
+                },
+                {
+                    "name": "Lint Filter Supported"
+                },
+                {
+                    "name": "4 Years Comprehensive Warranty and 10 Years Spare Part Support From IFB"
+                }
+            ]
+        },
+        {
+            "name": "MarQ By Flipkart 10.2 kg with Inverter Technology Fully Automatic Front Load with In-built Heater Silv...",
+            "price": "₹26,990",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "Capacity: 10.2 kg | Max Spin Speed: 1400 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Pulsator Wash"
+                },
+                {
+                    "name": "Digital Display Supported | 16 Wash Programs"
+                },
+                {
+                    "name": "1 Year Comprehensive Warranty and 3 Years Warranty on Motor from MarQ"
+                }
+            ]
+        },
+        {
+            "name": "BOSCH 6 kg 5 Star INVERTER TOUCH CONTROL Fully Automatic Front Load Silver",
+            "price": "₹24,990",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 6 kg | Max Spin Speed: 1000 rpm"
+                },
+                {
+                    "name": "Plastic | Tumble Wash"
+                },
+                {
+                    "name": "2 Years on Product and 12 Years on Motor from Bosch"
+                }
+            ]
+        },
+        {
+            "name": "Motorola 10.5 kg 5 Star Smart Wi-Fi Enabled Inverter Technology Fully Automatic Front Load with In-bui...",
+            "price": "₹34,490",
+            "body": [
+                {
+                    "name": "Fully Automatic Front Load"
+                },
+                {
+                    "name": "5 Star Rating"
+                },
+                {
+                    "name": "Capacity: 10.5 kg | Max Spin Speed: 1400 rpm"
+                },
+                {
+                    "name": "Stainless Steel | Pulsator Wash"
+                },
+                {
+                    "name": "Digital Display Supported | 16 Wash Programs"
+                },
+                {
+                    "name": "2 Years Comprehensive and 10 Years on Motor From Motorola"
+                }
+            ]
+        }
+    ]
+}

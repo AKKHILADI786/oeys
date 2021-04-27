@@ -1,0 +1,646 @@
+{
+    "washing": [
+        {
+            "name": "DELL Vostro Ryzen 3 Dual Core 3250U - (4 GB/1 TB HDD/Windows 10 Home) Vostro 3405 Thin and Light Lapto...",
+            "price": "₹30,490",
+            "body": [
+                {
+                    "name": "AMD Ryzen 3 Dual Core Processor"
+                },
+                {
+                    "name": "4 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL G5 15 SE Ryzen 5 Hexa Core 4600H - (8 GB/512 GB SSD/Windows 10 Home/6 GB Graphics/AMD Radeon RX 5...",
+            "price": "₹80,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Hexa Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL Vostro 3405 Ryzen 5 Quad Core 3450U - (8 GB/256 GB SSD/Windows 10 Home) Vostro 3405 Thin and Ligh...",
+            "price": "₹42,499",
+            "body": [
+                {
+                    "name": "AMD Ryzen 5 Quad Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "256 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Vostro Core i3 10th Gen - (8 GB/1 TB HDD/Windows 10 Home) Vostro 3401 Thin and Light Laptop",
+            "price": "₹38,350",
+            "body": [
+                {
+                    "name": "Intel Core i3 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Pentium Quad Core - (4 GB/256 GB SSD/Windows 10 Home) Inspiron 3502 Laptop",
+            "price": "₹31,490",
+            "body": [
+                {
+                    "name": "Intel Pentium Quad Core Processor"
+                },
+                {
+                    "name": "4 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i5 11th Gen - (8 GB/512 GB SSD/Windows 10 Home/2 GB Graphics) Inspiron 5409 Thin an...",
+            "price": "₹65,490",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (11th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Display"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i5 11th Gen - (8 GB/512 GB SSD/Windows 10) INSPIRON 3501 Notebook",
+            "price": "₹53,900",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (11th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home & Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron 3505 Ryzen 7 Quad Core 3700U - (8 GB/512 GB SSD/Windows 10 Home) Inspiron 3505 Laptop",
+            "price": "₹57,890",
+            "body": [
+                {
+                    "name": "AMD Ryzen 7 Quad Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron 14 Core i3 10th Gen - (4 GB/1 TB HDD/Windows 10 Home) Inspiron 3493 Thin and Light Lapto...",
+            "price": "₹35,990",
+            "body": [
+                {
+                    "name": "Intel Core i3 Processor (10th Gen)"
+                },
+                {
+                    "name": "4 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i3 10th Gen - (4 GB/1 TB HDD/256 GB SSD/Windows 10 Home) Inspiron 5491 2 in 1 Lapto...",
+            "price": "₹55,990",
+            "body": [
+                {
+                    "name": "Intel Core i3 Processor (10th Gen)"
+                },
+                {
+                    "name": "4 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Touchscreen Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i5 10th Gen - (8 GB/512 GB SSD/Windows 10 Home/2 GB Graphics) INS 5408 Thin and Lig...",
+            "price": "₹61,490",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i5 10th Gen - (8 GB/512 GB SSD/Windows 10 Home/2 GB Graphics) Inspiron 5501 Thin an...",
+            "price": "₹68,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Vostro Core i3 10th Gen - (4 GB/1 TB HDD/Windows 10 Home) Vostro 3491 Thin and Light Laptop",
+            "price": "₹34,990",
+            "body": [
+                {
+                    "name": "Intel Core i3 Processor (10th Gen)"
+                },
+                {
+                    "name": "4 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL G5 15 SE Ryzen 7 Octa Core 4800H - (8 GB/512 GB SSD/Windows 10 Home/6 GB Graphics/AMD Radeon RX 5...",
+            "price": "₹86,990",
+            "body": [
+                {
+                    "name": "AMD Ryzen 7 Octa Core Processor"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL Vostro Core i3 10th Gen - (8 GB/256 GB SSD/Windows 10 Home) Vostro 3401 Thin and Light Laptop",
+            "price": "₹38,199",
+            "body": [
+                {
+                    "name": "Intel Core i3 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "256 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i3 11th Gen - (4 GB/512 GB SSD/Windows 10 Home) Inspiron 5406 2 in 1 Laptop",
+            "price": "₹54,990",
+            "body": [
+                {
+                    "name": "Intel Core i3 Processor (11th Gen)"
+                },
+                {
+                    "name": "4 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Touchscreen Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i5 11th Gen - (8 GB/512 GB SSD/Windows 10 Home) Inspiron 5406 2 in 1 Laptop",
+            "price": "₹69,990",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (11th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Touchscreen Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i3 11th Gen - (4 GB/256 GB SSD/Windows 10 Home) Inspiron 5406 2 in 1 Laptop",
+            "price": "₹47,350",
+            "body": [
+                {
+                    "name": "Intel Core i3 Processor (11th Gen)"
+                },
+                {
+                    "name": "4 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "256 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Touchscreen Display"
+                },
+                {
+                    "name": "Microsoft Office Home & Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Support"
+                }
+            ]
+        },
+        {
+            "name": "DELL XPS Core i7 10th Gen - (16 GB/512 GB SSD/Windows 10 Home/4 GB Graphics) XPS 9500 Laptop",
+            "price": "₹2,00,890",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (10th Gen)"
+                },
+                {
+                    "name": "16 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Touchscreen Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i5 11th Gen - (4 GB/1 TB HDD/256 GB SSD/Windows 10 Home) Inspiron 3501 Laptop",
+            "price": "₹57,199",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (11th Gen)"
+                },
+                {
+                    "name": "4 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "1 TB HDD|256 GB SSD"
+                },
+                {
+                    "name": "39.62 cm (15.6 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Limited Hardware Warranty, In Home Service After Remote Diagnosis - Retail"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i3 11th Gen - (8 GB/512 GB SSD/Windows 10) Inspiron 5406 2 in 1 Laptop",
+            "price": "₹56,690",
+            "body": [
+                {
+                    "name": "Active Pen"
+                },
+                {
+                    "name": "Intel Core i3 Processor (11th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Touchscreen Display"
+                },
+                {
+                    "name": "Microsoft Office Home & Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Inspiron Core i5 10th Gen - (8 GB/512 GB SSD/Windows 10 Home) Inspiron 5300 Thin and Light Laptop",
+            "price": "₹62,690",
+            "body": [
+                {
+                    "name": "Intel Core i5 Processor (10th Gen)"
+                },
+                {
+                    "name": "8 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "33.78 cm (13.3 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL XPS 13 Core i7 8th Gen - (16 GB/512 GB SSD/Windows 10 Home) 9370 Thin and Light Laptop",
+            "price": "₹1,14,990",
+            "body": [
+                {
+                    "name": "Intel Core i7 Processor (8th Gen)"
+                },
+                {
+                    "name": "16 GB DDR3 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "512 GB SSD"
+                },
+                {
+                    "name": "33.78 cm (13.3 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2016"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        },
+        {
+            "name": "DELL Vostro 3405 Athlon Dual Core 3050 - (4 GB/256 GB SSD/Windows 10 Home) Vostro 3405 Thin and Light ...",
+            "price": "₹24,917",
+            "body": [
+                {
+                    "name": "AMD Athlon Dual Core Processor"
+                },
+                {
+                    "name": "4 GB DDR4 RAM"
+                },
+                {
+                    "name": "64 bit Windows 10 Operating System"
+                },
+                {
+                    "name": "256 GB SSD"
+                },
+                {
+                    "name": "35.56 cm (14 inch) Display"
+                },
+                {
+                    "name": "Microsoft Office Home and Student 2019"
+                },
+                {
+                    "name": "1 Year Onsite Warranty"
+                }
+            ]
+        }
+    ]
+}
