@@ -24,7 +24,7 @@ $(()=>{
                <div>
                    <div class="text-center">${p.name}<br>${p.description.substr(0,100)}...</div>
                    <div class="d-flex align-items-center justify-content-center">
-                       <button class="btn btn-outline-warning remove" onclick="getproductid(this)" data-code="${p.id}"><span id="remove_text">Add</span></button>
+                       <button class="btn btn-outline-warning remove" onclick="getproductid(this)" data-code="${p.id}" id="view_btn"><span id="remove_text">View More</span></button>
                    </div>
                </div>
 

@@ -1,0 +1,25 @@
+.car{
+    width: 1000px;
+    height:100%;
+}
+#add_to_cart{
+    width: 200px;
+    border-radius: 100px;
+}
+#add_to_cart:hover{
+    transform: scale(1.05);
+}
+.card-body{
+    background-color: #ffffff;
+    /* border-radius: 10px; */
+    /* border-top: 5px solid #0d6efd; */
+}
+.card-header{
+    z-index: 5;
+    box-shadow: 0px 5px 5px grey;
+}
+.card-footer{
+    z-index: 5;
+    box-shadow: 0px -5px 5px grey;
+}
+

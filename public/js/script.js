@@ -7,7 +7,9 @@ $(()=>{
     })
 
 
-
+    $('#contact').click(()=>{
+        $('#content').load('html/contat.html')
+    })
     $.get('/user/islogin',(data)=>{
         console.log('islogin clicked')
         if(data){

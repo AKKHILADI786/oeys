@@ -9,12 +9,12 @@ const {createproduct}= require('../controlers/product')
 
 const {saree}=require('./jsons/gamingLaptop.json')
  let name=saree;
-let type="Electronics";
-let subtype="Laptops";
+let type="Books";
+let subtype="Literature & Fiction";
 
 
 let a=1;
-for(let i=1;i<33;i++){
+for(let i=1;i<31;i++){
   let p=name[i-1];
   let nam=p.name
   let price=p.price
@@ -26,7 +26,7 @@ for(let i=1;i<33;i++){
   }
   let quantity=5;
   let user=1
-  image='/images/electronics/laptop/'+`1 (${i}).jpeg`;
+  image='/images/books/auto/'+`1 (${i}).webp`;
  createproduct(nam,type,subtype,price,quantity,description,image,user)
   //console.log(nam,type,subtype,price,quantity,description,image,user)
 
