@@ -30,9 +30,9 @@
       <div class="col-4 my-1 bar">
         <div class="container wrap ">
           <div class="search">
-            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?" id="search_menu">
             <button type="submit" class="searchButton">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search ic"
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" id="search_btn" class="bi bi-search ic"
                 viewBox="0 0 16 16">
                 <path
                   d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
@@ -64,10 +64,10 @@
                 <a class="nav-link active menu_text" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link menu_text" href="#">Best Deals</a>
+                <a class="nav-link menu_text" href="#best_deals">Best Deals</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link menu_text" href="#">Today Deals</a>
+                <a class="nav-link menu_text" href="#todays_deals">Today Deals</a>
               </li>
 
               <li class="nav-item dropdown">
@@ -346,9 +346,9 @@
 
     <hr>
 
-    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 con">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 con" id="best_deals">
       <div class="col my-1">
-        <div class="my_card">
+        <div class="my_card" onclick=getthis(this) data-val="Laptops">
           <div class="container">
             <div class="row">
               <h6 class="card_heading">Trending Now Cool Laptops</h6>
@@ -388,7 +388,7 @@
         </div>
       </div>
       <div class="col my-1">
-        <div class="my_card">
+        <div class="my_card" onclick=getthis(this) data-val="Appliances">
           <div class="container">
             <div class="row">
               <h6 class="card_heading">Trending Now Cooling Appliances </h6>
@@ -428,7 +428,7 @@
         </div>
       </div>
       <div class="col my-1">
-        <div class="my_card">
+        <div class="my_card" onclick=getthis(this) data-val="Electronics">
           <div class="container">
             <div class="row">
               <h6 class="card_heading">Cool Headphones</h6>
@@ -506,7 +506,7 @@
     </div>
     <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 con">
       <div class="col my-1">
-        <div class="my_card">
+        <div class="my_card" onclick=getthis(this) data-val="Bottom wear">
           <div class="container">
             <div class="row">
               <h6 class="card_heading">Trending Mens sports shoes</h6>
@@ -546,7 +546,7 @@
         </div>
       </div>
       <div class="col my-1">
-        <div class="my_card">
+        <div class="my_card" onclick=getthis(this) data-val="Sports">
           <div class="container">
             <div class="row">
               <h6 class="card_heading">Cool Gadets from Sports section</h6>
@@ -586,7 +586,7 @@
         </div>
       </div>
       <div class="col my-1">
-        <div class="my_card">
+        <div class="my_card" onclick=getthis(this) data-val="Women Western & Maternity Wear">
           <div class="container">
             <div class="row">
               <h6 class="card_heading">Trending womens footwears</h6>
@@ -626,7 +626,7 @@
         </div>
       </div>
       <div class="col my-1">
-        <div class="my_card">
+        <div class="my_card" onclick=getthis(this) data-val="Mens">
           <div class="container">
             <div class="row">
               <h6 class="card_heading">Trending Now Cool Mans fashion </h6>
@@ -670,10 +670,10 @@
     </div>
     <hr>
     <div>
-      <h4 class="m-3">Today`s Deals</h4>
+      <h4 class="m-3" id="todays_deals">Today`s Deals</h4>
     </div>
     <hr>
-    <div class="wrapper">
+    <div class="wrapper"  onclick=getthis(this) data-val="Suits, Blazers & Waistcoats">
 
       <div class="item">
         <div class="card p-2">
@@ -733,7 +733,7 @@
 
     </div>
     <hr>
-    <div class="wrapper">
+    <div class="wrapper"   onclick=getthis(this) data-val="Dresses">
 
       <div class="item">
         <div class="card p-2">
@@ -778,7 +778,7 @@
 
     </div>
     <hr>
-    <div class="wrapper mb-5">
+    <div class="wrapper mb-5"  onclick=getthis(this) data-val="Sarees" >
 
       <div class="item">
         <div class="card p-2">

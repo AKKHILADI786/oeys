@@ -63,11 +63,25 @@ $(()=>{
         $('#content').load('html/dealer_register.html')
     })
 
+    $('#search_btn').click(()=>{
+        let a=$('#search_menu').val();
 
+        window.sessionStorage.product=a;
+        console.log('btn clicked',a); 
+        $('#content').empty()
+        // $('#footer_box').empty()
+        $('#content').load('html/products.html')
+    })
 
 
 })
 
+function getthis(dat){
+    window.sessionStorage.product=$(dat).data('val')
+    $('#content').empty()
+    // $('#footer_box').empty()
+    $('#content').load('html/products.html')
+}
 function getinner(data){
     // for get the type of data
     window.sessionStorage.product=data.innerText;

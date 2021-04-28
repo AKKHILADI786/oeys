@@ -4,6 +4,9 @@ $(()=>{
     $.get(`/product/t/${pro}`,(data)=>{
         console.log(data);
         let a=0;
+        if(data.length>0){
+        $('#empty_col').empty();
+        }
        for(p of data){
            a++;
            $('#product_items').append(`
