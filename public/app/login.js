@@ -5,6 +5,11 @@ $(document).ready(function() {
     var preloader = $('.spinner-wrapper');
     preloader.fadeOut(preloaderFadeOutTime);
     }
+    function loadPreloader() {
+        var preloader = $('.spinner-wrapper');
+        preloader.fadein(preloaderFadeOutTime);
+        }
+    loadPreloader();
     hidePreloader();
 });
     
