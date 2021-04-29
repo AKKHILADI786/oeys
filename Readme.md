@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AKKHILADI786/shopify
+   git clone https://github.com/AKKHILADI786/oeys
    ```
 2. Install NPM packages
    ```sh
@@ -90,6 +90,6 @@ To get a local copy up and running follow these simple steps.
 - [Akshay Kumar Verma](https://github.com/Akkhiladi786)
 
 
-Project Link: [https://github.com/AKKHILADI786/shopify](https://github.com/AKKHILADI786/shopify)
+Project Link: [https://github.com/AKKHILADI786/oeys](https://github.com/AKKHILADI786/oeys)
 
 
